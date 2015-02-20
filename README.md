@@ -8,9 +8,13 @@ Dabei ist es wichtig sich immer im Ordner des aktuellen Repos zu befinden.
 ###1. Aktuellsten Stand runterladen:
 1. git pull
 
+###2. Branchverwaltung
+1. git checkout -b *branch-name* (erstellt neuen Branch und öffnet ihn)
+2. git checkout *branch-name* (in Branch wechseln)
+
 __Fertig!__
 
-###2. Änderungen vornehemen / Neue Dateien hinzufügen
+###3. Änderungen vornehemen / Neue Dateien hinzufügen
 1. git pull
 2. Änderungen machen an den diversen Dokumenten bzw. die neuen Dateien erstellen oder auch löschen
 3. git add -A
