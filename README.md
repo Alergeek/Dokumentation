@@ -2,7 +2,7 @@
 Dokumentation des Projektes
 
 ##HowTo GitHub
-GitHub ist eigentlich sehr einfach mit dem Comand-Line Tool zu verwenden. Dabei gibt es zwei verschiedene Standartaufgaben die zu bew�ltigen sind.
+GitHub ist eigentlich sehr einfach mit dem Comand-Line Tool zu verwenden. Dabei gibt es zwei verschiedene Standartaufgaben die zu bewältigen sind.
 Dabei ist es wichtig sich immer im Ordner des aktuellen Repos zu befinden.
 
 ###1. Aktuellsten Stand runterladen:
