@@ -1,7 +1,7 @@
 # Dokumentation
 Dokumentation des Projektes
 
-##HowTo GitHub
+##HowTo Git
 GitHub ist eigentlich sehr einfach mit dem Comand-Line Tool zu verwenden. Dabei gibt es zwei verschiedene Standartaufgaben die zu bewältigen sind.
 Dabei ist es wichtig sich immer im Ordner des aktuellen Repos zu befinden.
 
@@ -21,7 +21,7 @@ __Fertig!__
 __Fertig!__
 
 ###Möglicher Fehler
-Es kann passieren, dass ihr die Änderungen nach Schritt 4 nicht pushen könnt. Das liegt dann in den meisten Füllen daran, dass in der Zwischenzeit jemand anderes schon Änderungen getätigt hat. Dann geht es nach Schritt 4 so weiter:
+Es kann passieren, dass ihr die Änderungen nach Schritt 4 nicht pushen könnt. Das liegt dann in den meisten Fällen daran, dass in der Zwischenzeit jemand anderes schon Änderungen getätigt hat. Dann geht es nach Schritt 4 so weiter:
 5. Auf GitHub das aktuelle Repo als Zip runterladen (ist im Orga Repo nötig, da wir mit Dateien arbeiten, die nicht nur reinen Text enthalten und bei den nachfolgenden Schritten etwas verloren gehen könnte)
 6. git pull
 7. git merge
