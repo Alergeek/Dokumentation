@@ -1,1 +1,15 @@
 ID,Name,Beschreibung,Akzeptanzkriterien,Aufwand (h),Priorität,Status
+F10,Vuzix App,Die androidbasierte Anwendung auf der Vuzix,Lauffähige Anwendung,,1,definiert
+F11,Login,Barcode scannen von Webseite nach der Registrierung auf der Webseite,Barcode wird richtig erkannt und Verknüpfung hergestellt,,2,definiert
+F12,Produktbarcode scannen,Der Produktbarcode wird durch Sprachbefehl gescannt,Richtig erkannter Barcode wird zurück gegeben,,1,definiert
+F13,Produkt erkennen,Dem Service wird der Produktbarcode übermittelt zur Überprüfung,Übermittlung muss fehlerfrei ,,1,definiert
+F14,Antwort anzeigen,"Die Antwort des Services muss ausgewertet werden, User muss Ergebnis angezeigt werden",User muss ein optisches Feedback erhalten,,1,definiert
+F15,Homescreen,"Der Homescreen, welcher angezeigt wird und auf einen Sprachbefehl zum Scannen wartet",Der Homescreen muss angezeigt werden,,1,definiert
+F16,Sprachbefehl,Die Spracherkennung muss eine Handvoll Befehle identifizieren können,Sprachbefehl muss interpretiert werden,,2,definiert
+,,,,,,
+F20,Web-Application,Die webbasierte Anwendung zur Verwaltung persönlicher Daten,Muss erreichbar sein,,1,definiert
+F21,Registrierung ,Die User-Registrierung auf der Webseite,Registrierung muss für einen User möglich sein,,1,definiert
+F22,Registrierungsbarcode,Die Erzeugung des Barcodes zur Kopplung der Vuzix,Barcode wird richtig erzeugt,,2,definiert
+F23,User-Daten verwalten,Möglichkeit zur Eingabe Benutzerdaten,Daten müssen durch den User persistent verändert werden können,,2,definiert
+F24,Allergien verwalten,Möglichkeit zur Eingabe Allergien,Daten müssen durch den User persistent verändert werden können,,1,definiert
+F25,EAN Suche,Der Nutzer kann manuell nach einer EAN suchen,Ähnlich wie auf der Vuzix wird dem Nutzer eine Auswertung angezeigt,,3,definiert
