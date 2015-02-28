@@ -1,6 +1,10 @@
 # Nichtfunktionale Anforderungen
 
-Für die Anwendung "Edible" werden die folgenden nichtfunktionalen Anforderungen definiert.
+Dieses Dokument hält die nichtfunktionalen Anforderungen fest, die für die Anwendung "Edible"  definiert wurden.
+
+### Versionen
+
+* Nummer: 1.0 | Bearbeiter: Hendrik Niemann | Status: in Revision
 
 ## Inhalt
 * N10 Fachliche Mengen
@@ -28,7 +32,7 @@ Die Funktionen der Oberfläche werden in einem Handbuch dokumentiert.
 ## N30 Erscheinungsbild
 
 ### N30.1 Einheitlichkeit der Oberfläche
-Die Erscheinung der Oberfläche soll in Design und Bedienungskonzept einheitlich sein. 
+Die Erscheinung der Oberfläche soll in Design und Bedienungskonzept einheitlich sein.
 
 ## N40 Performanz
 
@@ -49,3 +53,8 @@ Für die Qualität und Einheitlichkeit des Codes wird ein Styleguide definiert, 
 
 ### N50.2 Dokumentation
 Der Code muss mit ausreichend Kommentaren ausgestattet sein. Für eine Automatische Dokumentationserstellung werden spezielle Kommentare erstellt, die automatisch verarbeitet werden. Diese Kommentare werden im Styleguide festgehalten.
+
+## N60 Tests
+
+### N60.1 Testbarkeit
+Anforderungen an die Testbarkeit werden in einem seperatem Testkonzept ferstgelegt.
