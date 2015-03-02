@@ -12,6 +12,7 @@ Dieses Dokument hält die nichtfunktionalen Anforderungen fest, die für die Anw
 * N30 Erscheinungsbild
 * N40 Performanz
 * N50 Wartbarkeit
+* N60 Tests
 
 ## N10 Fachliche Mengen
 
