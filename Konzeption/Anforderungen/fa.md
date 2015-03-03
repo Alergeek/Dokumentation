@@ -8,7 +8,7 @@
 * F40 Android Handy App
 
 ### Versionen
-* Nummer: 1.0 | Bearbeiter: Marco Heumann, Hendrik Niemann | Status: In Revision
+* Nummer: 1.0 | Bearbeiter: Marco Heumann, Hendrik Niemann, Moritz Bästlein | Status: In Revision
 
 ## F10 HMD App
 
@@ -58,7 +58,7 @@ Der Nutzer muss seine Email und sein Passwort ändern können.
 ### F30.6 Email bestätigen
 Zum Eintragen der Email wird eine Bestätigungsemail verschickt, die zuerst durch den Benutzer bestätigt werden muss.
 
-#F40 Android App
+#F40 Android-Smartphone App
  
 ##F40.1 Verwaltung
  
@@ -69,10 +69,10 @@ Der User kann sich für die Nutzung des Dienstes in der Android-Anwendung regist
 Der User muss sich zur Nutzung des Dienstes in der Android-Anwendung anmelden.
  
 ###F40.3 Benutzerdaten
-!!!COPY AUS DEM ANDEREN!!!
+Der Nutzer muss seine Email und sein Passwort ändern können.
  
 ###F40.4 Blacklist bearbeiten
-!!!COPY AUS DEM ANDEREN!!!
+Der Benutzer kann Einträge aus der Inhaltsstoffdatenbank zu seiner Blacklist hinzufügen und wieder entfernen.
  
 ##F40.2 Barcode scannen
 Der User scannt einen Produktbarcode und erhält eine Information über die Verträglichkeit.
