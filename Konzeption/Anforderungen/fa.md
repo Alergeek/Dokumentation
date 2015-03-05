@@ -58,24 +58,25 @@ Der Nutzer muss seine Email und sein Passwort ändern können.
 ### F30.6 Email bestätigen
 Zum Eintragen der Email wird eine Bestätigungsemail verschickt, die zuerst durch den Benutzer bestätigt werden muss.
 
-#F40 Android-Smartphone App
+## F40 Android-Smartphone App
  
-##F40.1 Verwaltung
+### F40.1 Verwaltung
+<noch offen>
  
-###F40.1 Registrierung
+### F40.2 Registrierung
 Der User kann sich für die Nutzung des Dienstes in der Android-Anwendung registrieren.
  
-###F40.2 Login
+### F40.3 Login
 Der User muss sich zur Nutzung des Dienstes in der Android-Anwendung anmelden.
  
-###F40.3 Benutzerdaten
+### F40.4 Benutzerdaten
 Der Nutzer muss seine Email und sein Passwort ändern können.
  
-###F40.4 Blacklist bearbeiten
+### F40.5 Blacklist bearbeiten
 Der Benutzer kann Einträge aus der Inhaltsstoffdatenbank zu seiner Blacklist hinzufügen und wieder entfernen.
  
-##F40.2 Barcode scannen
+### F40.6 Barcode scannen
 Der User scannt einen Produktbarcode und erhält eine Information über die Verträglichkeit.
  
-##F40.3 Informationen zum Produkt
+### F40.7 Informationen zum Produkt
 Der User kann sich alle Inhaltsstoffe des Produktes anzeigen lassen, sowie eine Websuche nach dem Produkt starten.
