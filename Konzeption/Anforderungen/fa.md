@@ -8,7 +8,8 @@
 * F40 Android-Smartphone App
 
 ### Versionen
-* Nummer: 1.1 | Bearbeiter: Marco Heumann, Hendrik Niemann, Moritz Bästlein, Marco Schenkel | Status: In Revision
+* Nummer: 1.0 | Bearbeiter: Maroc Heumann, Hendrik Niemann | Status: Überarbeitung notwendig
+* Nummer: 1.1 | Bearbeiter: Marco Heumann, Moritz Bästlein, Marco Schenkel | Status: In Revision
 
 ## F10 HMD App
 
@@ -57,7 +58,7 @@ Für die Verbindung mit der HMD-App wird ein Barcode im Web-Browser angezeigt.
 Der Nutzer kann seine Email-Adresse und sein Passwort ändern.
 
 ### F30.6 Email-Adresse bestätigen
-Zum Bestätigen der Email-Adresse wird eine Bestätigungsmail versandt, die zunächst durch den Benutzer bestätigt werden muss.
+Registriet sich ein Benutzer oder ändert er seine Emailadresse, muss er diese bestätigen. Zum Bestätigen wird eine Bestätigungslink an die Emailadresse versandt, die durch den Benutzer bestätigt werden muss.
 
 ## F40 Android-Smartphone App
  
