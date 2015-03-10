@@ -54,16 +54,19 @@ Der Benutzer kann Einträge aus der Inhaltsstoffdatenbank zu seiner Blacklist so
 ### F30.4 Kopplungsbarcode anzeigen
 Für die Verbindung mit der HMD-App wird ein Barcode im Web-Browser angezeigt.
 
-### F30.5 Benutzerdaten ändern
+### F30.5 Geräte-Verwaltung
+Der User kann HMDs koppeln und entkoppeln.
+
+### F30.6 Benutzerdaten ändern
 Der Nutzer kann seine Email-Adresse und sein Passwort ändern.
 
-### F30.6 Email-Adresse bestätigen
+### F30.7 Email-Adresse bestätigen
 Registriet sich ein Benutzer oder ändert er seine Emailadresse, muss er diese bestätigen. Zum Bestätigen wird eine Bestätigungslink an die Emailadresse versandt, die durch den Benutzer bestätigt werden muss.
 
 ## F40 Android-Smartphone App
  
-### F40.1 Verwaltung
-<noch offen>
+### F40.1 Geräte-Verwaltung
+Der User kann HMDs koppeln und entkoppeln.
  
 ### F40.2 Registrierung
 Der User kann sich für die Nutzung des Dienstes in der Android-Anwendung registrieren.
