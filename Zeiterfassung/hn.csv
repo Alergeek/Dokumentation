@@ -1,0 +1,14 @@
+Beschreibung der Aufgabe;Datum;Stunden;Meilenstein;
+Vorbereitung Kickoff;15.02.2015;0,5;P;P = Planung
+Kickoffmeeting;16.02.2015;2;P;AA = Anforderungsanalyse
+Besprechungsmeeting;20.02.2015;1;P;AT = Architektur
+Planungsmeeting;23.02.2015;1,5;P;E = Entwicklung
+Ausarbeitung Präsentation;23.02.2015;3;P;S = Sontiges
+Meeting und Erweiterung NFA;24.02.2015;2,5;AA;
+Abschluss NFA, Planung Montagsmeeting;27.02.2015;0,5;AA;
+Meeting: Review NFA, FA;03.03.2015;3,5;AA;
+Kurzes Besprechungsmeeting;05.03.2015;0.25;AA;
+Review Funktionale Anforderungen;06.03.2015;0,5;AA;
+Abschluss AA, Erstes Scrummeeting;10.03.2015;1,75;AA;
+;;;;
+Zeiterfassung Software Engineering;Hendrik Niemann;;16;
