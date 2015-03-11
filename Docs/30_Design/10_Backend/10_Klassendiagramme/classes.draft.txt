@@ -1,0 +1,51 @@
+User [
+static:
+-----
+	+create(email: String, password: String): User
+	+get_by_id(id: Integer): User
+	+get_by_email(email: String): User
+instance:
+	-id: Integer
+	-email: String
+	-password: Hash
+	-blacklist: Inhaltsstoff[0..n]
+-----
+	+__construct(email: String, password: Hash) 
+	+get_id(): Integer
+	+get_email(): String
+	+check_password(password: String): Boolean
+	+set_email(email: String): Boolean
+	+set_password(password: String): Boolean
+	+get_blacklist(): Inhaltsstoff[0..n]
+	+add_to_blacklist(item: Inhaltsstoff): Boolean
+	+rm_from_blacklist(item: Inhaltsstoff): Boolean
+]
+
+Inhaltsstoff [
+static:
+-----
+	+create(name: String): Inhaltsstoff
+	+get_by_id(id: Integer): Inhaltsstoff
+	+get_by_name(name: String): Inhaltsstoff
+instance:
+	-id: Integer
+	-name: String
+-----
+	+__construct(id: Integer, name: String)
+	+get_id(): Integer
+	+get_name(): String
+	+set_name(): Boolean
+]
+
+Produkt [
+static:
+-----
+	+get_by_id(id: BigInteger): Produkt
+instance:
+	-id: BigInteger
+	-name: String
+-----
+	+get_id(): BigInteger
+	+get_name(): String
+	+set_name(name: String): Boolean
+]
