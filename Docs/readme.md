@@ -8,7 +8,7 @@ Die Dokumentation ist in die (abgewandelten) 5 Phasen der Systementwicklung aufg
 * Test
 
 ## Ordnerstruktur
-`
+```
 |- 10_Planung
 |- 20_Analyse
 |   |- 10_Mini-Business-Plan
@@ -33,4 +33,4 @@ Die Dokumentation ist in die (abgewandelten) 5 Phasen der Systementwicklung aufg
 |       \- 20_Schnittstellen
 |- 40_Implementierung
 \- 50_Test
-`
+```
