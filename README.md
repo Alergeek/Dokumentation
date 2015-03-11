@@ -18,7 +18,7 @@ __Fertig!__
 1. git pull
 2. Änderungen machen an den diversen Dokumenten bzw. die neuen Dateien erstellen oder auch löschen
 3. git add -A
-4. git commit -m "*eure Änderung(en) beschreiben*"
+4. git commit -m "*eure Änderung(en) beschreiben*" (wenn ihr auf ein issue referenziert, dann geht das mit Hashtag und Issue-Nr., also für API-Design: *#7*. Wenn ihr in einem anderen Repo arbeitetn funzt die Referenz über: *Allergeeks/Dokumentation#7*)
 5. git push
 6. Nutzernamen und Passwort eingeben (Bei der Passworteingabe wird nichts angeizeigt, also schön sauber schreiben, sonst nochmal ab Schritt 5)
 
