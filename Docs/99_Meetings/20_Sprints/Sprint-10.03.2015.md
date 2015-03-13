@@ -1,6 +1,7 @@
 _Datum:_ 
 10.03.2015
-_Anwensend:_
+
+_Anwesend:_
 - Edwin Neubauer
 - Gregor Baumgärtner
 - Hendrik Niemann
