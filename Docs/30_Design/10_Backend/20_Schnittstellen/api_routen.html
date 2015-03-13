@@ -131,6 +131,18 @@ GET product/ :ProductInfo
     edible :bool
     ingredients Array of :Ingredient
 
+PUT product/ :bool
+  Params:
+    EAN :int
+    Name :string
+    ingredients Array of :int
+
+POST product/ :bool
+  Params:
+    EAN :int
+    Name :string
+    ingredients Array of :int
+
 GET ingredients/ Array of :Ingredient
   Ingredient:
     ID :int
