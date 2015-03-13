@@ -124,40 +124,67 @@ function onL() {
     </script>
 </head>
 <body onload="onL()">
-GET items/ :ItemCollection
-  ItemCollection:
-    created :Date
-    sales :Number
-    profit :Number
-    estimated :Number
-    numOnSale :Number
-    numSold :Number
-    entries Array of :Item
-GET items/{id} :Item
-  Item:
-    id :Number
-    boughtOn :Date
-    soldOn :Date
-    item :String
-    buy :Number
-    sell :Number
-    sold :Boolean
-    roi :Number
-PUT items/ :InsertReport
+GET product/ :ProductInfo
+  ProductInfo:
+    EAN :int
+    Name :string
+    edible :bool
+    ingredients Array of :Ingredient
+
+GET ingredients/ Array of :Ingredient
+  Ingredient:
+    ID :int
+    Name :string
+    description :string
+    infoLink :URL
+
+GET user/ :User
+  User:
+    Name :string
+    email :string
+
+POST user/ :bool
   Params:
-    item :String
-    buy :Number
-    sale :Number
-  InsertReport:
-    inserted :Boolean
-    id if inserted :Number
-POST items/{id} :Boolean
+    Name :string optional
+    email :string optional
+    password(Hash?) :string
+
+PUT user/ :bool
   Params:
-    item :String optional
-    buy :Number optional
-    sale :Number optional
-    boughtOn :Date optional
-    soldOn :Date optional
-DELETE items/{id} :Boolean
+    Name :string optional
+    email :string optional
+    password(Hash?) :string
+
+GET session/ :bool
+  Params:
+    authToken :string
+
+POST session/ :string
+  Params:
+    barcode :int optional
+    email :string optional
+    password :string optional
+  string:
+    authToken :string
+
+PUT session/ :int
+  int:
+    barcode :int
+
+GET blacklist/ Array of :Ingredient
+  Ingredient:
+    ID :int
+    Name :string
+    description :string
+    infoLink :URL
+
+PUT blacklist/ :bool
+  Params:
+    ID :int
+
+DELETE blacklist/ :bool
+  Params:
+    ID :int
+	
 </body>
 </html>
