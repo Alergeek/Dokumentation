@@ -23,5 +23,15 @@ _Agenda:_
 	- #9 Datenmodell [kleine Nachbesserungen nötig]
 	
 - Sprint-Retroperspektive
-
+	+ Arbeiten in einem Raum (SE-Vorlesung) wurde als Positiv bewertet
+		- Soll nun regelmäßiger statt finden
+	- Beim Pushen in das Github Repository soll nun immer die Referenz zum Zenhub Issue angegeben werden
+	- Es ist der Wunsch nach zeitlich genauerer Planung für Meetings aufgekommen
+	- Es ist der Wunsch nach Profilbildern in Github aufgekommen
 - Sprint-Planung
+	- Erarbeitung eines Testkonzepts
+		- Testsäule in Zenhub
+			- Fertig programmierte Issues in die Testsäule verschieben
+	- Festlegung wie Quellcode zu dokumentieren ist (Codedokumentation)
+	- Designentwurf
+	- Erstellung eines Styleguides
