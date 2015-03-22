@@ -47,3 +47,4 @@ Ansonsten können Funktionen und Variablen wie üblich kommentiert werden.
 
 ##Beispiel
 Ein Beispiel für PHP und JS findet sich im Ordner `example`.
+[Hier](http://cdn.rawgit.com/Allergeeks/Dokumentation/master/Code-Dokumentation/example/docs/html/index.html) ist die resultierende Doku verfügbar.
