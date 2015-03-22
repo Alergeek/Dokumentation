@@ -16,7 +16,7 @@ Zur Vorbereitung der Tests zählen ebenfalls das Anlegen von Testdaten / Testpro
 ###Verantwortlichkeiten
 Der Tester hat die Verantwortung seinen Test mit bestem gewissen durchzuführen.
 ###Aufgaben
-Der Tester muss das Zenhub-Issue nach dem Test in die entsprechende Pipe verschieben, sollte der Test Fehlerfrei durchlaufen sein kann der Tester das Issue aus der Pipe "Test" in die Pipe "Done" verschieben. Sollte es aber noch Fehler geben muss der Tester das Issue in die "Backlog" Pipe und muss dem entsprechden Entwickler informieren.
+Der Tester muss das Zenhub-Issue nach dem Test in die entsprechende Pipe verschieben, sollte der Test Fehlerfrei durchlaufen sein kann der Tester das Issue aus der Pipe "Test" in die Pipe "Done" verschieben. Sollte es aber noch Fehler geben muss der Tester das Issue in die "Backlog" Pipe verschieben und den entsprechden Entwickler informieren.
 
 ##Zu testende Eigenschaften
 Bei den Tests wird die Funktionalität der Funktionen getestet nicht der Inhalt der Daten. 
