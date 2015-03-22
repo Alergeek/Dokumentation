@@ -22,10 +22,10 @@ Der Tester muss das Zenhub-Issue nach dem Test in die entsprechende Pipe verschi
 Bei den Tests wird die Funktionalität der Funktionen getestet nicht der Inhalt der Daten. 
 
 ##Definition der Testobjekte
--Vuzix-App
--Web-Oberfläche
--API (Serverseiteige API)
--Smartphone-App
+- Vuzix-App
+- Web-Oberfläche
+- API (Serverseiteige API)
+- Smartphone-App
 
 
 ##Testfallkatalog
@@ -41,6 +41,7 @@ Bei den Tests wird die Funktionalität der Funktionen getestet nicht der Inhalt 
 
 ##Risikobetrachung, Priorisierung
 Um eine Risikobetrachtung durchzuführhen bzw. eine Priorisierung ansetzten zu können wird der Testfallkatalog priorisiert:
+
 1.	Profilerstellung funktioniert
 2.	Geräte koppeln und entkoppeln können
 3.	Automatische Anmeldung in der Vuzix-App
