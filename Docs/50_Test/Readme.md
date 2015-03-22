@@ -41,15 +41,15 @@ Bei den Tests wird die Funktionalität der Funktionen getestet nicht der Inhalt 
 
 ##Risikobetrachung, Priorisierung
 Um eine Risikobetrachtung durchzuführhen bzw. eine Priorisierung ansetzten zu können wird der Testfallkatalog priorisiert:
-1. Profilerstellung funktioniert
-2. Geräte koppeln und entkoppeln können
-3. Automatische Anmeldung in der Vuzix-App
-4. korrekte (Fehler-)Meldungen nach Produktscan
-5. Richtige Zusatzinformationen zu Produkten erhalten
-6. Funktionierendes Errorhandling
-7. Sprachbefehle, die erkannt werden
-8. Bearbeitung der Blacklist
-9. Bearbeitung der persönlichen Daten
+1.	Profilerstellung funktioniert
+2.	Geräte koppeln und entkoppeln können
+3.	Automatische Anmeldung in der Vuzix-App
+4.	korrekte (Fehler-)Meldungen nach Produktscan
+5.	Richtige Zusatzinformationen zu Produkten erhalten
+6.	Funktionierendes Errorhandling
+7.	Sprachbefehle, die erkannt werden
+8.	Bearbeitung der Blacklist
+9.	Bearbeitung der persönlichen Daten
 
 ##Zeit- und Ressourcenmanagement
 Alles wird innerhalb des selben Sprints von einer anderen Person getestet.
