@@ -1,9 +1,18 @@
-Als Entwickler brauche ich eine API-Dokumentation, damit ich weiß, wie ich die API verwenden kann.
+﻿Als Entwickler brauche ich eine API-Dokumentation, damit ich weiß, wie ich die API verwenden kann.
+done
 Als Entwickler brauche ich Klassendiagramme, damit ich schnell sehen kann, welche Schnittstellen ein Klasse implementiert und ich diese benutzen kann.
+done
 Als Kommunikationsmanager brauche ich die verbuchten Zeiten der Mitarbeiter, damit ich diese schnell gesammelt an den Auftraggeber weiterleiten kann.
+done
 Als Systemadministrator brauche ich eine Architekturbeschreibung, damit ich eine Produktionsumgebung aufsetzen und planen kann.
+done
 Als Tester brauche ich ein Testkonzept, damit ich definierte Tests erstellen und durchführen kann.
+MarcoH Edwin
 Als Entwickler brauche ich ein Datenmodell, damit ich in der Datenbank geeignete Tabellen anlegen kann.
+done
 Als Entwickler brauche ich einen Designentwurf, um die Website zu erstellen.
+TIMMMMMMMMY und Hennie
 Als Team brauchen wir einen Styleguide, damit wir lesbaren und homogenen Code erzeugen.
+MarcoS
 Als Entwickler brauche ich eine Codedokumentation, damit ich den Code benutzen kann, ohne den Code zu kennen.
+moritz
