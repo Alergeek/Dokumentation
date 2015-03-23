@@ -1,14 +1,23 @@
 Beschreibung der Aufgabe;Datum;Stunden;Meilenstein;
-Vorbereitung Kickoff;15.02.2015;0,5;P;P = Planung
-Kickoffmeeting;16.02.2015;2;P;AA = Anforderungsanalyse
-Besprechungsmeeting;20.02.2015;1;P;AT = Architektur
-Planungsmeeting;23.02.2015;1,5;P;E = Entwicklung
-Ausarbeitung Pr�sentation;23.02.2015;3;P;S = Sontiges
+Vorbereitung Kickoff;15.02.2015;0,5;P;
+Kickoffmeeting;16.02.2015;2;P;
+Besprechungsmeeting;20.02.2015;1;P;
+Planungsmeeting;23.02.2015;1,5;P;
+Ausarbeitung Präsentation;23.02.2015;3;P;
 Meeting und Erweiterung NFA;24.02.2015;2,5;AA;
 Abschluss NFA, Planung Montagsmeeting;27.02.2015;0,5;AA;
 Meeting: Review NFA, FA;03.03.2015;3,5;AA;
 Kurzes Besprechungsmeeting;05.03.2015;0.25;AA;
 Review Funktionale Anforderungen;06.03.2015;0,5;AA;
-Abschluss AA, Erstes Scrummeeting;10.03.2015;1,75;AA;
+Abschluss AA, Erstes Scrummeeting;10.03.2015;1,75;AA/AT;
+Klassendiagramme Backend;11.03.2015;1;AT;
+Daily, API-Design;12.03.2015;2,5;AT;
+User Stories, Entwicklerstories;13.03.2015;2;AT;
+Klassendiagramme Backend;14.03.2015;1,5;AT;
+Abnahme des Sprints;16.03.2015;1;AT;
+Sprintwechsel;17.03.2015;1;AT;
+Skizze Website;19.03.2015;0,5;AT;
+Website Design Vorbesprechung;19.03.2015;1;AT;
+Überarbeitung Klassendiagramme Backend;22.03.2015;0,5;AT;
 ;;;;
 Zeiterfassung Software Engineering;Hendrik Niemann;;16;
