@@ -99,7 +99,7 @@ Example:
 
   void doNothing() {}
 
-## 4.2 Block indentation: +2 spaces 
+## 4.2 Block indentation: +4 spaces 
 Each time a new block or block-like construct is opened, the indent increases by two spaces. When the block ends, the indent returns to the previous indent level. The indent level applies to both code and comments throughout the block. (See the example in Section 4.1.2, Nonempty blocks: K & R Style.)
 
 ## 4.3 One statement per line 
