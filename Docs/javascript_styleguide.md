@@ -1,22 +1,22 @@
 # Source
-https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
+▶ https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
 
 # JavaScript Language Rules
 ## var
-Declarations with var: Always
+▶ Declarations with var: Always
 ## Constants
-    Use NAMES_LIKE_THIS for constant values.
-    Use @const to indicate a constant (non-overwritable) pointer (a variable or property).
-    Never use the const keyword as it's not supported in Internet Explorer.
+Use NAMES_LIKE_THIS for constant values.
+Use @const to indicate a constant (non-overwritable) pointer (a variable or property).
+Never use the const keyword as it's not supported in Internet Explorer.
 
 ## Semicolons
- Always use semicolons.
+▶ Always use semicolons.
 ## Nested functions
-Yes
+▶ Yes
 ## Function Declarations Within Blocks
-No
+▶ No
 ## Exceptions
-Yes
+▶ Yes
 ## Custom exceptions
 ▶
 Yes
