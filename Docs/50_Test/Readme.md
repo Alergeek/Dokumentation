@@ -10,11 +10,11 @@ Auch JUnit besitzt eine vernünftige Doku auf der eigenen Webseite und eine klei
 ###Testuser
 Im Rahmen der Vorbereitung für die Tests müssen verschiedene Testuser angelegt werden. Diese Testuser müssen möglichst unterschiedliche Eingenschaften haben (z.B. leere Blackliste, alle vorhandenen Zutaten in der Blackliste).
 ###Testdaten
-Zur Vorbereitung der Tests zählen ebenfalls das Anlegen von Testdaten / Testprodukten. Die Testdaten müssen unterschiedliche Inhaltsstoffe haben (z.B. keine, alle vorhandenen ).
+Zur Vorbereitung der Tests zählen ebenfalls das Anlegen von Testdaten / Testprodukten. Die Testdaten müssen unterschiedliche Inhaltsstoffe haben (z.B. keine, alle vorhandenen ). Die Testdaten werden als Dummy-Daten in die Produktivdatenbank geschrieben.
 
 ##Verantwortlichkeiten, Aufgaben des Testers
 ###Verantwortlichkeiten
-Der Tester hat die Verantwortung seinen Test mit bestem gewissen durchzuführen.
+Der Entwickler muss für alle seine Funktionen ausreichende Unit-Tests schreiben.
 ###Aufgaben
 Der Tester muss das Zenhub-Issue nach dem Test in die entsprechende Pipe verschieben, sollte der Test Fehlerfrei durchlaufen sein kann der Tester das Issue aus der Pipe "Test" in die Pipe "Done" verschieben. Sollte es aber noch Fehler geben muss der Tester das Issue in die "Backlog" Pipe verschieben und den entsprechden Entwickler informieren.
 
