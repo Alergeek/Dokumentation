@@ -5,6 +5,7 @@ Wer sich mit JavaDoc auskennt, kann einfach die Syntax benutzen. Für alle ander
 Eine ausführliche Dokumentation von Doxygen ist [hier](http://stack.nl/~dimitri/doxygen/manual/index.html) verfügbar.
 
 ##Allgemeines
+* Die Code-Dokumentation soll in englischer Sprache erfolgen.
 * `/**` leitet einen JavaDoc-Kommentar ein. Er wird wie gewohnt mit `*/` abgeschlossen.
 * `@brief TEXT` gibt eine Zusammenfassung der detaillierten Beschreibung an. Diese wird später in der Doku allerdings auch in der Detailbeschreibung mit aufgeführt.
 * `@param {datentyp} parametername Beschreibung` beschreibt einen Parameter.

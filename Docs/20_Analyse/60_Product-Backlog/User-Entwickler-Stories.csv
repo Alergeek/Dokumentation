@@ -17,3 +17,14 @@ User;Smartphone-App;eine einfaches Verfahren zum koppeln neuer Geräte;damit ich
 User;Smartphone-App;eine Blacklist erstellen und bearbeiten können;zu definieren, auf welche Inhaltsstoffe ein Produkt geprüft werden soll.
 User;Smartphone-App;einen schnell erreichbaren Barcode-Scanner;im Laden schnell Informationen über ein Produkt zu bekommen.
 User;Smartphone-App;eine übersichtliche Informationsseite;gut und schnell zu erkennen, ob ich das gescannte Produkt kaufen kann oder nicht.
+;;;
+Als;brauche ich;;
+Entwickler;eine API-Dokumentation, damit ich wei�, wie ich die API verwenden kann.;;
+Entwickler;Klassendiagramme, damit ich schnell sehen kann, welche Schnittstellen ein Klasse implementiert und ich diese benutzen kann.;;
+Kommunikationsmanager;die verbuchten Zeiten der Mitarbeiter, damit ich diese schnell gesammelt an den Auftraggeber weiterleiten kann.;;
+Systemadministrator;eine Architekturbeschreibung, damit ich eine Produktionsumgebung aufsetzen und planen kann.;;
+Test;ein Testkonzept, damit ich definierte Tests erstellen und durchf�hren kann.;;
+Entwickler;ein Datenmodell, damit ich in der Datenbank geeignete Tabellen anlegen kann.;;
+Entwickler;einen Designentwurf, um die Website zu erstellen.;;
+Team;einen Styleguide, damit wir lesbaren und homogenen Code erzeugen.;;
+Entwickler;eine Codedokumentation, damit ich den Code benutzen kann, ohne den Code zu kennen.;;
