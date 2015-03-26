@@ -1,0 +1,3 @@
+## Frontend Technologien
+
+Für das Frontend werden keine größeren Frameworks verwendet, da die Website nur einen geringen Funktionsumfang hat. Bei diesem Funktionsumfang lohnt sich eine Verwendung von großen Frameworks wie Angular oder Backbone nicht, vor allem da die Teammitglieder noch keinerlei Erfahrung mit diesen Technologien haben. Um die Implementierung zu vereinfachen wird die Benutzung von jQuery toleriert. Auch finden keine Precompiler Anwendung.
