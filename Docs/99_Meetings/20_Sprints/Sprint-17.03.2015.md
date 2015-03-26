@@ -25,9 +25,10 @@ _Agenda:_
 - Sprint-Retroperspektive
 	+ Arbeiten in einem Raum (SE-Vorlesung) wurde als Positiv bewertet
 		- Soll nun regelmäßiger statt finden
-	- Beim Pushen in das Github Repository soll nun immer die Referenz zum Zenhub Issue angegeben werden
+	- Beim Pushen in das Github Repository soll nun immer die Referenz zum Github Issue angegeben werden
 	- Es ist der Wunsch nach zeitlich genauerer Planung für Meetings aufgekommen
 	- Es ist der Wunsch nach Profilbildern in Github aufgekommen
+	
 - Sprint-Planung
 	- Erarbeitung eines Testkonzepts
 		- Testsäule in Zenhub
