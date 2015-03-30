@@ -22,3 +22,6 @@ Jeder: DS-Fragen beantwortet.
 Jeder: DS-Fragen beantwortet. 
 Kurzes Gespräch über Ideen zum Thema Frontend-Technologie.
 
+30.03.2015:
+Jeder: DS-Fragen beantwortet.
+Einigung auf ein Meeting zur Übersicht von automatisierten Tests
