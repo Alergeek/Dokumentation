@@ -35,6 +35,7 @@ body {
 .return {
     color: #DB0A5B;
     margin: 5px;
+    margin-right: 0px;
 }
 
 .param {
@@ -64,6 +65,11 @@ body {
     margin: 5px;
     margin-right: 0;
 }
+
+.optional {
+    color: #F8F8F8;
+    margin: 5px;
+}
         </style>
     <script>
 function onL() {
@@ -71,9 +77,9 @@ function onL() {
 
     function parseMethod( string ) {
         var curr = string.split(' ');
-        if (curr )
+        if (curr)
         return '<div class="group"><div class="point"><span class="method">' + curr.shift() + '</span><span class="route">' +
-               curr.shift().replace(/\{([a-z]*)\}/g, '{<span class="param">$1</span>}') +
+               curr.shift().replace(/\{([A-Z]+)\}/g, '{<span class="param">$1</span>}') +
                '</span>' + parseReturn( curr ) + '</div>';
     }
 
@@ -92,9 +98,15 @@ function onL() {
 
     function parseReturn( arr ) {
         var i,
-            ret = '<span class="arrof">';
+            ret = '<span class="arrof">',
+            optional = false;
+
+        if (arr[arr.length - 1] === 'optional') {
+            optional = true;
+            arr.pop();
+        }
         if ( arr.length === 1 ) {
-            return '<span class="return">' + arr[0] + '</span>';
+            ret = '<span class="return">' + arr[0] + '</span>';
         } else {
             for (i = 0; i < arr.length; ++i) {
                 if (i + 1 === arr.length) {
@@ -104,10 +116,10 @@ function onL() {
                 }
             }
         }
-        return ret;
+        return optional ? ret + '<span class="optional">optional</span>' : ret;
     }
 
-    bod.innerHTML = bod.innerHTML.split('\n').reduce(function(p, c) {
+    bod.innerHTML = bod.innerHTML.replace(/\s*#.*\n/g, '\n').split('\n').reduce(function(p, c) {
         if (c.length < 3) return p;
         if (c.substr(0, 2) === '  ') {
             if (c.substr(0, 4) === '    ') {
@@ -124,79 +136,105 @@ function onL() {
     </script>
 </head>
 <body onload="onL()">
-GET product/ :ProductInfo
+GET product/{ID}/{AUTH}/ :ProductInfo
+  Params:
+    {ID} :number
+    {AUTH} :authToken
   ProductInfo:
-    EAN :int
-    Name :string
-    edible :bool
+    ean :number
+    name :string
+    edible :boolean
     ingredients Array of :Ingredient
+  Ingredient:
+    id :number
+    name :string
+    description :string
+    infoLink :URL
 
-PUT product/ :bool
+PUT product/{AUTH}/ :number
   Params:
-    EAN :int
-    Name :string
-    ingredients Array of :int
+    {AUTH} :authToken
+    ean :number
+    name :string
+    ingredients Array of :number
 
-POST product/ :bool
+POST product/{ID}/{AUTH}/ :boolean
   Params:
-    EAN :int
-    Name :string
-    ingredients Array of :int
+    {ID} :number
+    {AUTH} :authToken
+    name :string optional
+    ingredients Array of :number optional
 
 GET ingredients/ Array of :Ingredient
   Ingredient:
-    ID :int
-    Name :string
+    id :number
+    name :string
     description :string
     infoLink :URL
 
-GET user/ :User
+POST user/{AUTH}/ :boolean
+  Params:
+    {AUTH} :authToken
+    email :string
+    password :string
+
+PUT user/ :AuthToken
+  Params:
+    email :string
+    password :string
+  AuthToken:
+    authToken :string
+
+GET session/{AUTH}/ :Session
+  Params:
+    {AUTH} :authToken
+  Session:
+    valid :boolean
+    until if valid :number
+    user if valid :User
   User:
-    Name :string
+    id :number
     email :string
 
-POST user/ :bool
+POST session/ :AuthToken
   Params:
-    Name :string optional
-    email :string optional
-    password(Hash?) :string
-
-PUT user/ :bool
-  Params:
-    Name :string optional
-    email :string optional
-    password(Hash?) :string
-
-GET session/ :bool
-  Params:
-    authToken :string
-
-POST session/ :string
-  Params:
-    barcode :int optional
+    barcode :number optional
     email :string optional
     password :string optional
-  string:
+  AuthToken:
     authToken :string
 
-PUT session/ :int
-  int:
-    barcode :int
+PUT session/{AUTH}/ :Barcode
+  Params:
+    {AUTH} :authToken
+  Barcode:
+    barcode :number
 
-GET blacklist/ Array of :Ingredient
+# Ausloggen
+DELETE session/{AUTH}/ :boolean
+  Params:
+    {AUTH} :authToken
+
+# Erhalte alle geblacklisteten Zutaten
+GET blacklist/{AUTH}/ Array of :Ingredient
+  Params:
+    {AUTH} :authToken
   Ingredient:
-    ID :int
-    Name :string
+    id :number
+    name :string
     description :string
-    infoLink :URL
+    infoLink :string
 
-PUT blacklist/ :bool
+# Einen Eintrag mit bestimmter ID blacklisten
+PUT blacklist/{ID}/{AUTH}/ :boolean
   Params:
-    ID :int
+    {ID} :number
+    {AUTH} :authToken
 
-DELETE blacklist/ :bool
+# Einen Eintrag mit bestimmter ID von der Blacklist entfernen
+DELETE blacklist/{ID}/{AUTH}/ :boolean
   Params:
-    ID :int
-	
+    {ID} :number
+    {AUTH} :authToken	
 </body>
 </html>
