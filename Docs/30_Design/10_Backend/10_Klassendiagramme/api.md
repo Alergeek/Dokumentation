@@ -2,7 +2,7 @@
 
 ## Using the API
 
-Start the API to analyse the path.
+Start the API with `init` to analyse the path.
 ```php
 API::init();
 
@@ -15,12 +15,12 @@ Use `finalize` to send 404 errors.
 ## Defining Variables
 
 It is possible to define variables with the static `define` function.
-The `define` function takes a regular expression and a name for the variable.
+The `define` function takes a regular expression and a name for the variable. Variable names are written in capital letters.
 ```php
-API::define('\d+', '{NUMBER}');
+API::define('\d+', 'NUMBER');
 ```
 
-Use the variables in the routes like this...
+Variables in the path are written in curly braches. Use the variables in the routes like this...
 ```php
 API::get('route/{NUMBER}/', function($a_Data) {
 	// get variable content
@@ -30,7 +30,7 @@ API::get('route/{NUMBER}/', function($a_Data) {
 
 ## Request method route functions
 
-The API supports the following request Methods:
+The API supports the following request methods:
 `GET`, `POST`, `PUT` and `DELETE`.
 
 The Routes are defined with the corresponding static methods in lower cases:
@@ -44,7 +44,14 @@ API::delete('route/', function() {});
 ```
 
 ## Special data in the array
-When the route uses the `{AUTH}` variable the `session` index contains the current user session from Type `Session`.
+The data array contains POST, PUT and DELETE data. It also contains the variables used in the route. There are also spacial indices set by the api.
+The `path` index returns the path requested by the user. The `method` index contains the request method.
+```php
+$a_Data['path'];
+$a_Data['method'];
+```
+
+When the route uses the `{AUTH}` variable the `session` index contains the current user session of type `Session`.
 ```php
 $a_Data['session'];
 ```
