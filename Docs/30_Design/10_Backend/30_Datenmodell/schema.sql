@@ -162,7 +162,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 START TRANSACTION;
 USE `allergeeks`;
 INSERT INTO `allergeeks`.`user` (`id`, `email`, `password`) VALUES (1, 'marco.heumann@web.de', '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8');
-INSERT INTO `allergeeks`.`user` (`id`, `email`, `password`) VALUES (2 'test@example.com', 'b444ac06613fc8d63795be9ad0beaf55011936ac');
+INSERT INTO `allergeeks`.`user` (`id`, `email`, `password`) VALUES (2, 'test@example.com', 'b444ac06613fc8d63795be9ad0beaf55011936ac');
 
 COMMIT;
 
