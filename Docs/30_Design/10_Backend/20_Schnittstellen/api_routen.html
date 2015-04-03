@@ -8,7 +8,7 @@ body {
 }
 
 .group {
-    width: 800px;
+    max-width: 600px;
     margin: 10px auto;
     background-color: #333333;
     border-radius: 4px;
@@ -136,6 +136,8 @@ function onL() {
     </script>
 </head>
 <body onload="onL()">
+
+# Erhalte Produktinfos
 GET product/{ID}/{AUTH}/ :ProductInfo
   Params:
     {ID} :number
@@ -151,6 +153,7 @@ GET product/{ID}/{AUTH}/ :ProductInfo
     description :string
     infoLink :URL
 
+# Neues Produkt anlegen
 PUT product/{AUTH}/ :number
   Params:
     {AUTH} :authToken
@@ -158,6 +161,7 @@ PUT product/{AUTH}/ :number
     name :string
     ingredients Array of :number
 
+# Produkt bearbeiten
 POST product/{ID}/{AUTH}/ :boolean
   Params:
     {ID} :number
@@ -165,6 +169,7 @@ POST product/{ID}/{AUTH}/ :boolean
     name :string optional
     ingredients Array of :number optional
 
+# Erhalte alle ingredients
 GET ingredients/ Array of :Ingredient
   Ingredient:
     id :number
@@ -172,12 +177,21 @@ GET ingredients/ Array of :Ingredient
     description :string
     infoLink :URL
 
+# Erhalte Infos über eingeloggten User
+GET user/{AUTH} :User
+  Params:
+    {AUTH} :authToken
+  User:
+    email :string
+
+# Nutzerdaten ändern
 POST user/{AUTH}/ :boolean
   Params:
     {AUTH} :authToken
     email :string
     password :string
 
+# Registrieren
 PUT user/ :AuthToken
   Params:
     email :string
@@ -185,17 +199,16 @@ PUT user/ :AuthToken
   AuthToken:
     authToken :string
 
-GET session/{AUTH}/ :Session
+# Erhalte Übersicht der laufenden Sessions
+GET session/{AUTH}/ Array of :Session
   Params:
     {AUTH} :authToken
   Session:
-    valid :boolean
-    until if valid :number
-    user if valid :User
-  User:
-    id :number
-    email :string
+    token :authToken
+    until :number
+    name :string
 
+# Login mit Barcode oder Email und Passwort
 POST session/ :AuthToken
   Params:
     barcode :number optional
@@ -204,6 +217,7 @@ POST session/ :AuthToken
   AuthToken:
     authToken :string
 
+# Erhalte Barcode einer Session
 PUT session/{AUTH}/ :Barcode
   Params:
     {AUTH} :authToken
