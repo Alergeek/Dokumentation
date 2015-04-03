@@ -15,6 +15,10 @@ body {
     padding: 5px 10px;
 }
 
+.group.unimpl {
+    background-color: #553333;
+}
+
 .point {
     width: 100%;
     padding: 5px 0;
@@ -78,7 +82,12 @@ function onL() {
     function parseMethod( string ) {
         var curr = string.split(' ');
         if (curr)
-        return '<div class="group"><div class="point"><span class="method">' + curr.shift() + '</span><span class="route">' +
+        if(curr[0][0] === '-')
+            return '<div class="group unimpl"><div class="point"><span class="method">' + curr.shift().substr(1) + '</span><span class="route">' +
+               curr.shift().replace(/\{([A-Z]+)\}/g, '{<span class="param">$1</span>}') +
+               '</span>' + parseReturn( curr ) + '</div>';
+        else
+            return '<div class="group"><div class="point"><span class="method">' + curr.shift() + '</span><span class="route">' +
                curr.shift().replace(/\{([A-Z]+)\}/g, '{<span class="param">$1</span>}') +
                '</span>' + parseReturn( curr ) + '</div>';
     }
@@ -138,7 +147,7 @@ function onL() {
 <body onload="onL()">
 
 # Erhalte Produktinfos
-GET product/{ID}/{AUTH}/ :ProductInfo
+-GET product/{ID}/{AUTH}/ :ProductInfo
   Params:
     {ID} :number
     {AUTH} :authToken
@@ -154,7 +163,7 @@ GET product/{ID}/{AUTH}/ :ProductInfo
     infoLink :URL
 
 # Neues Produkt anlegen
-PUT product/{AUTH}/ :number
+-PUT product/{AUTH}/ :number
   Params:
     {AUTH} :authToken
     ean :number
@@ -162,7 +171,7 @@ PUT product/{AUTH}/ :number
     ingredients Array of :number
 
 # Produkt bearbeiten
-POST product/{ID}/{AUTH}/ :boolean
+-POST product/{ID}/{AUTH}/ :boolean
   Params:
     {ID} :number
     {AUTH} :authToken
@@ -170,7 +179,7 @@ POST product/{ID}/{AUTH}/ :boolean
     ingredients Array of :number optional
 
 # Erhalte alle ingredients
-GET ingredients/ Array of :Ingredient
+-GET ingredients/ Array of :Ingredient
   Ingredient:
     id :number
     name :string
@@ -178,26 +187,29 @@ GET ingredients/ Array of :Ingredient
     infoLink :URL
 
 # Erhalte Infos über eingeloggten User
-GET user/{AUTH} :User
+-GET user/{AUTH} :User
   Params:
     {AUTH} :authToken
   User:
     email :string
 
 # Nutzerdaten ändern
-POST user/{AUTH}/ :boolean
+-POST user/{AUTH}/ :boolean
   Params:
     {AUTH} :authToken
     email :string
     password :string
 
 # Registrieren
-PUT user/ :AuthToken
+-PUT user/ :Session
   Params:
     email :string
     password :string
-  AuthToken:
-    authToken :string
+  Session:
+    token :authToken
+    until :number
+    name :string
+    email :string
 
 # Erhalte Übersicht der laufenden Sessions
 GET session/{AUTH}/ Array of :Session
@@ -207,15 +219,19 @@ GET session/{AUTH}/ Array of :Session
     token :authToken
     until :number
     name :string
+    email :string
 
 # Login mit Barcode oder Email und Passwort
-POST session/ :AuthToken
+POST session/ :Session
   Params:
     barcode :number optional
     email :string optional
     password :string optional
-  AuthToken:
-    authToken :string
+  Session:
+    token :authToken
+    until :number
+    name :string
+    email :string
 
 # Erhalte Barcode einer Session
 PUT session/{AUTH}/ :Barcode
@@ -230,7 +246,7 @@ DELETE session/{AUTH}/ :boolean
     {AUTH} :authToken
 
 # Erhalte alle geblacklisteten Zutaten
-GET blacklist/{AUTH}/ Array of :Ingredient
+-GET blacklist/{AUTH}/ Array of :Ingredient
   Params:
     {AUTH} :authToken
   Ingredient:
@@ -240,13 +256,13 @@ GET blacklist/{AUTH}/ Array of :Ingredient
     infoLink :string
 
 # Einen Eintrag mit bestimmter ID blacklisten
-PUT blacklist/{ID}/{AUTH}/ :boolean
+-PUT blacklist/{ID}/{AUTH}/ :boolean
   Params:
     {ID} :number
     {AUTH} :authToken
 
 # Einen Eintrag mit bestimmter ID von der Blacklist entfernen
-DELETE blacklist/{ID}/{AUTH}/ :boolean
+-DELETE blacklist/{ID}/{AUTH}/ :boolean
   Params:
     {ID} :number
     {AUTH} :authToken	

@@ -2359,7 +2359,7 @@
 											"containerExtending": false,
 											"left": 469,
 											"top": 99,
-											"width": 469,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2428,7 +2428,7 @@
 									"containerExtending": false,
 									"left": 464,
 									"top": 92,
-									"width": 479,
+									"width": 490,
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -2474,7 +2474,7 @@
 											"containerExtending": false,
 											"left": 469,
 											"top": 122,
-											"width": 469,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2502,7 +2502,7 @@
 											"containerExtending": false,
 											"left": 469,
 											"top": 137,
-											"width": 469,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2530,7 +2530,7 @@
 											"containerExtending": false,
 											"left": 469,
 											"top": 152,
-											"width": 469,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2550,7 +2550,7 @@
 									"containerExtending": false,
 									"left": 464,
 									"top": 117,
-									"width": 479,
+									"width": 490,
 									"height": 53,
 									"autoResize": false
 								},
@@ -2584,7 +2584,7 @@
 											"containerExtending": false,
 											"left": 469,
 											"top": 175,
-											"width": 469,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": true,
@@ -2612,11 +2612,11 @@
 											"containerExtending": false,
 											"left": 469,
 											"top": 190,
-											"width": 469,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
-											"underline": false,
-											"text": "+__construct(token: string)",
+											"underline": true,
+											"text": "+get_by_token(token: string): Session",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2640,11 +2640,11 @@
 											"containerExtending": false,
 											"left": 469,
 											"top": 205,
-											"width": 469,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
-											"underline": false,
-											"text": "+__construct(email: string, password: string)",
+											"underline": true,
+											"text": "+get_by_login(email: string, password: string): Session",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2668,11 +2668,39 @@
 											"containerExtending": false,
 											"left": 469,
 											"top": 220,
-											"width": 469,
+											"width": 480,
+											"height": 13,
+											"autoResize": false,
+											"underline": true,
+											"text": "+get_by_barcode(barcode: int): Session",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFMgFY73YQvK5A=",
+											"_parent": {
+												"$ref": "AAAAAAFMafEAMWPRUEI="
+											},
+											"model": {
+												"$ref": "AAAAAAFMgFY7toQp7KY="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 469,
+											"top": 235,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+__construct(barcode: int)",
+											"text": "+__construct(token: string, user: User, admin: boolean, valid: integer, name: string)",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2695,8 +2723,8 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 469,
-											"top": 235,
-											"width": 469,
+											"top": 250,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2723,8 +2751,8 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 469,
-											"top": 250,
-											"width": 469,
+											"top": 265,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2751,8 +2779,8 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 469,
-											"top": 265,
-											"width": 469,
+											"top": 280,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2779,8 +2807,8 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 469,
-											"top": 280,
-											"width": 469,
+											"top": 295,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2807,8 +2835,8 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 469,
-											"top": 295,
-											"width": 469,
+											"top": 310,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2835,12 +2863,40 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 469,
-											"top": 310,
-											"width": 469,
+											"top": 325,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
 											"text": "+get_all_sessions(): Session[1..*]",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFMgFf4xYWeKk0=",
+											"_parent": {
+												"$ref": "AAAAAAFMafEAMWPRUEI="
+											},
+											"model": {
+												"$ref": "AAAAAAFMgFf4n4WYL5c="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 469,
+											"top": 340,
+											"width": 480,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+to_json(): string",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2863,12 +2919,12 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 469,
-											"top": 325,
-											"width": 469,
+											"top": 355,
+											"width": 480,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+make_token(device: string, admin: boolean, user: integer, length: integer): string",
+											"text": "-make_token(device: string, admin: boolean, user: integer, length: integer): string",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -2884,8 +2940,8 @@
 									"containerExtending": false,
 									"left": 464,
 									"top": 170,
-									"width": 479,
-									"height": 173,
+									"width": 490,
+									"height": 203,
 									"autoResize": false
 								},
 								{
@@ -2924,8 +2980,8 @@
 							"containerExtending": false,
 							"left": 464,
 							"top": 92,
-							"width": 479,
-							"height": 251,
+							"width": 490,
+							"height": 281,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -2979,7 +3035,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 415,
-									"top": 193,
+									"top": 199,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3011,8 +3067,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 415,
-									"top": 178,
+									"left": 416,
+									"top": 184,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3045,7 +3101,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 414,
-									"top": 222,
+									"top": 228,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3078,7 +3134,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 394,
-									"top": 193,
+									"top": 198,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3110,8 +3166,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 396,
-									"top": 180,
+									"left": 397,
+									"top": 184,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3144,7 +3200,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 389,
-									"top": 220,
+									"top": 225,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3177,7 +3233,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 437,
-									"top": 193,
+									"top": 199,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3210,7 +3266,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 435,
-									"top": 180,
+									"top": 186,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3242,8 +3298,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 441,
-									"top": 221,
+									"left": 440,
+									"top": 227,
 									"width": 0,
 									"height": 13,
 									"autoResize": false,
@@ -3322,7 +3378,7 @@
 								"$ref": "AAAAAAFMIuEN5ihoyjs="
 							},
 							"lineStyle": 1,
-							"points": "368:214;463:215",
+							"points": "368:218;463:222",
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
 							"showProperty": true,
@@ -3766,6 +3822,34 @@
 											"text": "+delete(path: string, exec: function)",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFMgFRZS4EIz5U=",
+											"_parent": {
+												"$ref": "AAAAAAFMbHQde6RfCJY="
+											},
+											"model": {
+												"$ref": "AAAAAAFMgFRZFYD/u2Q="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 965,
+											"top": 302,
+											"width": 321,
+											"height": 13,
+											"autoResize": false,
+											"underline": true,
+											"text": "-make_error(code: int, message: string)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
 										}
 									],
 									"visible": true,
@@ -3780,7 +3864,7 @@
 									"left": 960,
 									"top": 207,
 									"width": 331,
-									"height": 98,
+									"height": 113,
 									"autoResize": false
 								},
 								{
@@ -3820,7 +3904,7 @@
 							"left": 960,
 							"top": 144,
 							"width": 331,
-							"height": 161,
+							"height": 176,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -6807,10 +6891,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFMafEALWPIt0o="
 							},
-							"name": "__construct",
+							"name": "get_by_token",
 							"documentation": "Revoke existing session via auth token.",
 							"visibility": "public",
-							"isStatic": false,
+							"isStatic": true,
 							"isLeaf": false,
 							"parameters": [
 								{
@@ -6828,6 +6912,23 @@
 									"isOrdered": false,
 									"isUnique": false,
 									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFXgYYLaLjM=",
+									"_parent": {
+										"$ref": "AAAAAAFMafIR8GSMlDg="
+									},
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": {
+										"$ref": "AAAAAAFMafEALWPIt0o="
+									},
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "return"
 								}
 							],
 							"concurrency": "sequential",
@@ -6840,10 +6941,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFMafEALWPIt0o="
 							},
-							"name": "__construct",
+							"name": "get_by_login",
 							"documentation": "Generate new session via  login credentials.",
 							"visibility": "public",
-							"isStatic": false,
+							"isStatic": true,
 							"isLeaf": false,
 							"parameters": [
 								{
@@ -6877,6 +6978,23 @@
 									"isOrdered": false,
 									"isUnique": false,
 									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFX6FIMlAAk=",
+									"_parent": {
+										"$ref": "AAAAAAFMafNE5mUD/Cc="
+									},
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": {
+										"$ref": "AAAAAAFMafEALWPIt0o="
+									},
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "return"
 								}
 							],
 							"concurrency": "sequential",
@@ -6889,10 +7007,10 @@
 							"_parent": {
 								"$ref": "AAAAAAFMafEALWPIt0o="
 							},
-							"name": "__construct",
+							"name": "get_by_barcode",
 							"documentation": "Create new session via previously generated barcode.",
 							"visibility": "public",
-							"isStatic": false,
+							"isStatic": true,
 							"isLeaf": false,
 							"parameters": [
 								{
@@ -6906,6 +7024,121 @@
 									"isStatic": false,
 									"isLeaf": false,
 									"type": "int",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFYOvINwLCI=",
+									"_parent": {
+										"$ref": "AAAAAAFMagDcD2c5p+I="
+									},
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": {
+										"$ref": "AAAAAAFMafEALWPIt0o="
+									},
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "return"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFMgFY7toQp7KY=",
+							"_parent": {
+								"$ref": "AAAAAAFMafEALWPIt0o="
+							},
+							"name": "__construct",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFdsv4Rm0LY=",
+									"_parent": {
+										"$ref": "AAAAAAFMgFY7toQp7KY="
+									},
+									"name": "token",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFdsv4Rnj5U=",
+									"_parent": {
+										"$ref": "AAAAAAFMgFY7toQp7KY="
+									},
+									"name": "user",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": {
+										"$ref": "AAAAAAFMIuEN5ShmZbY="
+									},
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFdsv4RodKc=",
+									"_parent": {
+										"$ref": "AAAAAAFMgFY7toQp7KY="
+									},
+									"name": "admin",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "boolean",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFdsv4RpExc=",
+									"_parent": {
+										"$ref": "AAAAAAFMgFY7toQp7KY="
+									},
+									"name": "valid",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "integer",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFdswIRqh7c=",
+									"_parent": {
+										"$ref": "AAAAAAFMgFY7toQp7KY="
+									},
+									"name": "name",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
@@ -7115,12 +7348,44 @@
 						},
 						{
 							"_type": "UMLOperation",
+							"_id": "AAAAAAFMgFf4n4WYL5c=",
+							"_parent": {
+								"$ref": "AAAAAAFMafEALWPIt0o="
+							},
+							"name": "to_json",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFgh94XVZlI=",
+									"_parent": {
+										"$ref": "AAAAAAFMgFf4n4WYL5c="
+									},
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "return"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "Generate a JSON from this session, to return in API."
+						},
+						{
+							"_type": "UMLOperation",
 							"_id": "AAAAAAFMeWJg1plP/7E=",
 							"_parent": {
 								"$ref": "AAAAAAFMafEALWPIt0o="
 							},
 							"name": "make_token",
-							"visibility": "public",
+							"visibility": "private",
 							"isStatic": false,
 							"isLeaf": false,
 							"parameters": [
@@ -7225,6 +7490,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "API",
+					"documentation": "Class for creating restful APIs",
 					"visibility": "public",
 					"attributes": [
 						{
@@ -7568,6 +7834,54 @@
 									"isStatic": false,
 									"isLeaf": false,
 									"type": "function",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFMgFRZFYD/u2Q=",
+							"_parent": {
+								"$ref": "AAAAAAFMbHQdeaRWvXU="
+							},
+							"name": "make_error",
+							"visibility": "private",
+							"isStatic": true,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFTMaIFCxKU=",
+									"_parent": {
+										"$ref": "AAAAAAFMgFRZFYD/u2Q="
+									},
+									"name": "code",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "int",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFMgFTMaYFD8D8=",
+									"_parent": {
+										"$ref": "AAAAAAFMgFRZFYD/u2Q="
+									},
+									"name": "message",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "string",
 									"isReadOnly": false,
 									"isOrdered": false,
 									"isUnique": false,
