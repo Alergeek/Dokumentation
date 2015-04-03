@@ -18,3 +18,7 @@ Sprintwechsel + Issues erstellen	24.03.2015	3.5
 Diskussion zum Sessionmanagement und User-API	26.03.2015	6
 User-API	28.03.2015	2
 PHPUnit einrichten und umsetzen	29.03.2015	3
+Route.php und prepare.php erstellen	30.03.2015	1
+Sprintwechsel	31.03.2016	1.5
+PHPUnit funktionsfähig gemacht und Registrierung umgesetzt	02.04.2015	3
+Registrierung und Session gemerged, test cases für Session	03.04.2015	3
