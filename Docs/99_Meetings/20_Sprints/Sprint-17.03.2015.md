@@ -22,7 +22,7 @@ _Agenda:_
 	- #8 Backend-Strukur [kleine Nachbesserungen nötig]
 	- #9 Datenmodell [kleine Nachbesserungen nötig]
 	
-- Sprint-Retroperspektive
+- Sprint-Retrospektive
 	+ Arbeiten in einem Raum (SE-Vorlesung) wurde als Positiv bewertet
 		- Soll nun regelmäßiger statt finden
 	- Beim Pushen in das Github Repository soll nun immer die Referenz zum Github Issue angegeben werden

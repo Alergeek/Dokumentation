@@ -55,3 +55,18 @@ When the route uses the `{AUTH}` variable the `session` index contains the curre
 ```php
 $a_Data['session'];
 ```
+
+## Exceptions
+Throw exceptions inside the function to easily generate error HTTP status codes.
+```php
+API::get('route/', function($a_Data) {
+	throw new Exception('Unauthorized', 403);
+});
+```
+The API creates a 403 response automatically.
+```json
+{
+	"status": 403,
+	"message": "Unauthorized"
+}
+```

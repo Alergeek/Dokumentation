@@ -22,7 +22,7 @@ _Agenda:_
 	- #12 Designentwurf [in neuen Sprint übernommen]
 	- #13 Styleguide [closed]
 	
-- Sprint-RetroPerspektive
+- Sprint-Retrospektive
 	- Größe der Arbeitsgruppen (klein halten)
 	- Arbeiten in einem Raum fortführen
 	- Team ist aktuell zufrieden mit Fortschritt im Projekt
