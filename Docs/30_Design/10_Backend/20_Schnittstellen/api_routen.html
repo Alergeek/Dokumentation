@@ -179,7 +179,7 @@ function onL() {
     ingredients Array of :number optional
 
 # Erhalte alle ingredients
--GET ingredients/ Array of :Ingredient
+-GET ingredient/ Array of :Ingredient
   Ingredient:
     id :number
     name :string
@@ -187,11 +187,11 @@ function onL() {
     infoLink :URL
 
 # Erhalte Infos über eingeloggten User
--GET user/{AUTH} :User
-  Params:
-    {AUTH} :authToken
-  User:
-    email :string
+#-GET user/{AUTH} :User
+#  Params:
+#    {AUTH} :authToken
+#  User:
+#    email :string
 
 # Nutzerdaten ändern
 -POST user/{AUTH}/ :boolean
