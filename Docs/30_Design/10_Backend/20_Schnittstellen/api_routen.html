@@ -186,6 +186,12 @@ function onL() {
     description :string
     infoLink :URL
 
+# Erhalte alle Kategorien
+-GET category/ Array of :Category
+  Category:
+    id :number
+    name :string
+
 # Erhalte Infos über eingeloggten User
 #-GET user/{AUTH} :User
 #  Params:
