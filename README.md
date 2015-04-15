@@ -10,9 +10,8 @@ Dabei ist es wichtig sich immer im Ordner des aktuellen Repos zu befinden.
 
 ###2. Branchverwaltung
 0. Vor dem Anlegen von neuen Dateien für den Branch, muss erst das Branch erstellt werden. Also zuerst 1. und 2. dann los arbeiten.
-1. git checkout -b *branch-name* (erstellt neuen Branch und öffnet ihn)
+1. git checkout -b *branch-name* (erstellt neuen Branch und öffnet ihn. Namenskonvention: Iss*Nr.*, also z.B. Iss15)
 2. git checkout *branch-name* (in Branch wechseln)
-3. git commit -m "*getätigte Änderung angeben*" -m "*weitere Änderungen*" ("close #15" schließt Isse Nr. 15)
 
 __Fertig!__
 
