@@ -36,4 +36,12 @@ _Agenda:_
 	- 
 	
 - Sprint-Planung
-	- 
+	- Codefreeze 25.04.2015 
+	- Blackboxtesting 20.01.2015 (jeder)
+	- Präsentations Konzept für den 27.04 (edwin)
+	- StarUML-Doku nachziehen (jeder)
+	- API Doku überprüfen (Moritz)
+	- Abschluss-Doku + Lession learned (Hennie)
+	- Bugs fixen (jeder nimmt sich)
+		- Issue Branchs HowTo (MarcoH)
+	- Datenbank mit Daten füllen (MarcoS)
