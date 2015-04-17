@@ -193,11 +193,11 @@ GET category/ Array of :Category
     name :string
 
 # Erhalte Infos über eingeloggten User
-#-GET user/{AUTH} :User
-#  Params:
-#    {AUTH} :authToken
-#  User:
-#    email :string
+GET user/{AUTH} :User
+  Params:
+    {AUTH} :authToken
+  User:
+    email :string
 
 # Nutzerdaten ändern
 POST user/{AUTH}/ :boolean
