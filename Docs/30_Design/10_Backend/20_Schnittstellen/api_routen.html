@@ -147,7 +147,7 @@ function onL() {
 <body onload="onL()">
 
 # Erhalte Produktinfos
--GET product/{ID}/{AUTH}/ :ProductInfo
+GET product/{ID}/{AUTH}/ :ProductInfo
   Params:
     {ID} :number
     {AUTH} :authToken
@@ -159,55 +159,56 @@ function onL() {
   Ingredient:
     id :number
     name :string
-    description :string
-    infoLink :URL
+#    description :string
+#    infoLink :URL
 
 # Neues Produkt anlegen
--PUT product/{AUTH}/ :number
-  Params:
-    {AUTH} :authToken
-    ean :number
-    name :string
-    ingredients Array of :number
+#PUT product/{AUTH}/ :number
+#  Params:
+#    {AUTH} :authToken
+#    ean :number
+#    name :string
+#    ingredients Array of :number
 
 # Produkt bearbeiten
--POST product/{ID}/{AUTH}/ :boolean
-  Params:
-    {ID} :number
-    {AUTH} :authToken
-    name :string optional
-    ingredients Array of :number optional
+#-POST product/{ID}/{AUTH}/ :boolean
+#  Params:
+#    {ID} :number
+#    {AUTH} :authToken
+#    name :string optional
+#    ingredients Array of :number optional
 
 # Erhalte alle ingredients
--GET ingredient/ Array of :Ingredient
+GET ingredient/ Array of :Ingredient
   Ingredient:
     id :number
     name :string
-    description :string
-    infoLink :URL
+#    description :string
+#    infoLink :URL
 
 # Erhalte alle Kategorien
--GET category/ Array of :Category
+GET category/ Array of :Category
   Category:
     id :number
     name :string
 
 # Erhalte Infos über eingeloggten User
-#-GET user/{AUTH} :User
-#  Params:
-#    {AUTH} :authToken
-#  User:
-#    email :string
+GET user/{AUTH} :User
+  Params:
+    {AUTH} :authToken
+  User:
+    email :string
 
 # Nutzerdaten ändern
--POST user/{AUTH}/ :boolean
+POST user/{AUTH}/ :boolean
   Params:
     {AUTH} :authToken
     email :string
+    newPassword :string
     password :string
 
 # Registrieren
--PUT user/ :Session
+PUT user/ :Session
   Params:
     email :string
     password :string
@@ -252,23 +253,23 @@ DELETE session/{AUTH}/ :boolean
     {AUTH} :authToken
 
 # Erhalte alle geblacklisteten Zutaten
--GET blacklist/{AUTH}/ Array of :Ingredient
+GET blacklist/{AUTH}/ Array of :Ingredient
   Params:
     {AUTH} :authToken
   Ingredient:
     id :number
     name :string
-    description :string
-    infoLink :string
+#    description :string
+#    infoLink :string
 
 # Einen Eintrag mit bestimmter ID blacklisten
--PUT blacklist/{ID}/{AUTH}/ :boolean
+PUT blacklist/{ID}/{AUTH}/ :boolean
   Params:
     {ID} :number
     {AUTH} :authToken
 
 # Einen Eintrag mit bestimmter ID von der Blacklist entfernen
--DELETE blacklist/{ID}/{AUTH}/ :boolean
+DELETE blacklist/{ID}/{AUTH}/ :boolean
   Params:
     {ID} :number
     {AUTH} :authToken	
