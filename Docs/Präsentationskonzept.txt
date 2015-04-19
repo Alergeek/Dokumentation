@@ -1,0 +1,17 @@
+links auf dem Beamer die Vuzix, in der Mitte die Präsi, rechts die Website		
+Vuzix	 Präsi	 Web
+1.Start	 1.Hallo	 1.Front
+-	 2.Ablauf	 -
+-	 3.Ablauf [durchführen]	 3.Registrieren/Anmelden
+-	 -	 4.Backlist zeigen/bearbeiten
+-	 -	 5.UserConfig zeigen
+6.Gerät koppeln	 -	 6.Gerät koppeln
+7.Produkt scannen	 -	 -
+8.positives/negatives Ergebnis	 -	 -
+-	 9.Server	 -
+-	 10.Datenbank	 -
+-	 11.Api/Backend	 -
+-	 12.Frontend	 -
+-	 13.Vuzix	 -
+-	 14.Projektablauf	 -
+-	 15.Lession learned	 -
