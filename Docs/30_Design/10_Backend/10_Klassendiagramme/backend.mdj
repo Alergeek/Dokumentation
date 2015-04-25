@@ -4598,7 +4598,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 399,
+									"left": 400,
 									"top": 529,
 									"width": 23,
 									"height": 13,
@@ -4911,7 +4911,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 416,
+									"left": 417,
 									"top": 215,
 									"width": 8,
 									"height": 13,
@@ -5011,7 +5011,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 482,
+									"left": 483,
 									"top": 216,
 									"width": 23,
 									"height": 13,
@@ -5279,7 +5279,7 @@
 								"$ref": "AAAAAAFMIuEN5ShmZbY="
 							},
 							"name": "hash",
-							"documentation": "hash of the user password",
+							"documentation": "Hash of the user password.",
 							"visibility": "private",
 							"isStatic": false,
 							"isLeaf": false,
@@ -5762,6 +5762,7 @@
 								"$ref": "AAAAAAFMIuEN5ShmZbY="
 							},
 							"name": "get_blacklist",
+							"documentation": "Search for blacklist of user",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -6195,6 +6196,7 @@
 								"$ref": "AAAAAAFMIuG/zCiNQ1c="
 							},
 							"name": "get_id",
+							"documentation": "Get ID of ingredient.",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -6227,6 +6229,7 @@
 								"$ref": "AAAAAAFMIuG/zCiNQ1c="
 							},
 							"name": "get_name",
+							"documentation": "Get name of ingredient.",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -6259,6 +6262,7 @@
 								"$ref": "AAAAAAFMIuG/zCiNQ1c="
 							},
 							"name": "set_name",
+							"documentation": "Set name of ingredient.",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -6307,6 +6311,7 @@
 								"$ref": "AAAAAAFMIuG/zCiNQ1c="
 							},
 							"name": "get_categories",
+							"documentation": "Get categories the ingredient  is associated with.",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
