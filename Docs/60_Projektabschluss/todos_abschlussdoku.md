@@ -30,16 +30,16 @@
 - Klassendiagramme
 - Libraries, Frameworks, _Intent_-Einbindungen
 
-### Bewertung des entwickelten Produkts
+### Bewertung des entwickelten Produkts *bitte füll mich aus*
 - Vergleich mit den Anforderungen
 
 ### Beschreibung des Projektablaufs
-- Planung
-- Vorgehensmodell
+- Planung *not done*
+- Vorgehensmodell *done*
   * Sprints
-- Rollen
-- Testkonzeption
+- Rollen *done*
+- Testkonzeption *done*
 
 ### Fazit und Ausblick
-- Erstellung der Android App
-- Datenbeschaffung durch Crowdsourcing
+- Erstellung der Android App *done*
+- Datenbeschaffung durch Crowdsourcing *done*
