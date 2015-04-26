@@ -1,18 +1,19 @@
 ## Dokumentation ToDos
 
-### Einleitung, Intention, Motivation
-### Anforderungen
+### Einleitung, Intention, Motivation *verbessern*
+### Anforderungen *verbessern*
 - Zielgruppe
-- Ausformulierte Beschreibung der Anforderungen
+- Zielsystem
+- Usecases
 
-### Spezifikationen
+### Spezifikationen *done*
 - Entscheidung der Einführung eines Webfrontendes
 
 ### Architektur und Schnittstellen
 #### Backend
-- Hardwarearchitektur
-- Datenmodell
-- Klassendiagramme
+- Hardwarearchitektur *done*
+- Datenmodell *done*
+- Klassendiagramme 
 - Schnittstellen
   * Beschreibung des Restful Konzeptes
   * Funktionalität der Ruten
