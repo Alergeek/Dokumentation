@@ -1,53 +1,48 @@
 ## Dokumentation ToDos
 
-### Einleitung, Intention, Motivation *verbessern*
-__Edwin__
-### Anforderungen *verbessern*
+### Einleitung, Intention, Motivation *done*
+### Anforderungen *not done*
 __Hendrik__
-- Zielgruppe
-- Zielsystem
-- Usecases
+- Zielgruppe *not done*
+- Zielsystem *not done*
+- Usecases *not done* 
 
 ### Spezifikationen *done*
-- Entscheidung der Einführung eines Webfrontendes
+- Entscheidung der Einführung eines Webfrontendes 
 
-### Architektur und Schnittstellen
-#### Backend
-__Moritz__
+### Architektur und Schnittstellen *done*
+#### Backend *done*
 - Hardwarearchitektur *done*
 - Datenmodell *done*
-- Klassendiagramme 
-- Schnittstellen
+- Klassendiagramme *done*
+- Schnittstellen *done*
   * Beschreibung des Restful Konzeptes
   * Funktionalität der Ruten
   * Verweis auf Technische Spezifikation der API Ruten im Anhang
-- Libraries und Frameworks
+- Libraries und Frameworks *done*
   * Entscheidung, warum kein spezielles Framework
 
-#### Frontend
-__Tim__
-- Klassendiagramme
-- Libraries und Frameworks
+#### Frontend *done*
+- Klassendiagramme *done*
+- Libraries und Frameworks *done*
   * Enscheidung, warum kein spezielles Framework
 
-#### Vuzix App
-__GreBe__
-- Klassendiagramme
-- Libraries, Frameworks, _Intent_-Einbindungen
+#### Vuzix App *done*
+- Klassendiagramme *done*
+- Libraries, Frameworks, _Intent_-Einbindungen *done*
 
-### Bewertung des entwickelten Produkts *bitte füll mich aus*
+### Bewertung des entwickelten Produkts *not done*
 __Edwin__
 - Vergleich mit den Anforderungen
 
-### Beschreibung des Projektablaufs
-__Marco H.__
-- Planung *not done*
+### Beschreibung des Projektablaufs *done*
+- Planung *done*
 - Vorgehensmodell *done*
   * Sprints
 - Rollen *done*
 - Testkonzeption *done*
 
-### Fazit und Ausblick
+### Fazit und Ausblick *done*
 - Erstellung der Android App *done*
 - Datenbeschaffung durch Crowdsourcing *done*
 
