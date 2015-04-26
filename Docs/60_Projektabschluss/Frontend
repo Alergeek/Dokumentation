@@ -1,10 +1,10 @@
 3.2 Frontend
 
 Das Frontend besteht aus einer Web-Applikation mit einem übersichtlichen Funktionsumfang, 
-welche dem User die Einstellungsmöglichkeiten für die HMD-App ermöglicht und dadurch erleichtert.
+welche dem User die Einstellungsmöglichkeiten für die HMD-App ermöglicht.
 Der User kann so auf einem web-fähigen Gerät gewünschter Größe (z.B. ein Laptop, Tablet oder auch ein Smartphone)
 bequem alle Einstellungen für die App vornehmen, anstatt auf dem kleinen Display des HMD 
-und mit dessen umständlichen Eingabemöglichkeiten hantieren zu müssen.
+und mit dessen komplizierten Eingabemöglichkeiten hantieren zu müssen.
 Damit man das Frontend von verschiedenen Geräten verwenden kann,
 ist die Oberfläche entsprechend mit einem responsive Webdesign ausgestattet.
 
@@ -21,7 +21,7 @@ Da die Website nur einen geringen Funktionsumfang hat, wurden für das Frontend 
 Bei diesem Funktionsumfang lohnte sich eine Verwendung von großen Frameworks wie z.B. Angular oder Backbone nicht, 
 vor allem aber auch weil die Teammitglieder noch keinerlei Erfahrung mit diesen Technologien haben.
 So besteht die Website grundlegend aus reinem HTML, CSS und JavaScript.
-Das Frontend greift über asynchrone Aufrufe mithilfe der Ajax-Technologie auf die in Kapitel 3.1 beschriebene RESTful API 
+Das Frontend greift über asynchrone Aufrufe mithilfe der AJAX-Technologie auf die in Kapitel 3.1 beschriebene RESTful API 
 des Backends zu und bekommt so Zugriff auf die Daten in der Datenbank.
 Um die Implementierung zu vereinfachen, findet lediglich das Framework jQuery Verwendung. 
 Außerdem finden keine Precompiler Anwendung.
