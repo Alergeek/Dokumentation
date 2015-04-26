@@ -1,18 +1,26 @@
-# Zielgruppen
-	-> nicht nur gezwungen auf ihre Ernährung zu achten -> besonders beim EINKAUFEN viel aufwand
-	-> "kann genutzt werden" vs. "richtet sich auch an"
-
-# genereller Aufbau
-	-> "Die Zielgeräte" verfügen/besitzen "außer den kleinen Bildschirmen nur geringe Speicherkapazitäten und Rechenleistung."
+# 3.1 genereller Aufbau
+	-> "Die Zielgeräte" !!verfügen/besitzen!! "außer den kleinen Bildschirmen nur geringe Speicherkapazitäten und Rechenleistung."
+	-> "Auf Grund" -> Aufgrund (auch in darauffolgendem Absatz)
 	-> kaum ein / kein Problem statt "geringes Problem"
 
-# fa/nfa
+# 3.2 fa/nfa
 	-> 3x umgesetzt -> realisiert/implementiert/bereitgestellt
 
-# hmd
+# 4.3 hmd
 	-> "verzerren" -> "verzehren"
+
+# 4.3.1 klassendiagramme
 	-> "activities" -> "activities"
+
+# 4.3.2 libraries
 	-> "weiterzuverarbeiten" -> trennen!?
 
-# projektablauf - vorgehensmodell
+# 6.1 planung
+	-> "Während dessen stellten wir ebenfalls fest" -> währenddessen
+	-> "Die zwei Wochen waren absichtlich einkalkuliert" -> diese?
+
+# 6.2 vorgehensmodell
 	-> "vom aubfau" -> "im aufbau"
+
+# 7 ausblick
+	-> "wad den ... erweitern würde" -> das den ... erweitern würde
