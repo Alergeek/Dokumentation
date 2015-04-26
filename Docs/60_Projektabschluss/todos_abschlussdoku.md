@@ -1,11 +1,10 @@
 ## Dokumentation ToDos
 
 ### Einleitung, Intention, Motivation *done*
-### Anforderungen *not done*
-__Hendrik__
-- Zielgruppe *not done*
-- Zielsystem *not done*
-- Usecases *not done* 
+### Anforderungen *done*
+- Zielgruppe *done*
+- Zielsystem *done*
+- Usecases *done* 
 
 ### Spezifikationen *done*
 - Entscheidung der Einführung eines Webfrontendes 
@@ -31,8 +30,7 @@ __Hendrik__
 - Klassendiagramme *done*
 - Libraries, Frameworks, _Intent_-Einbindungen *done*
 
-### Bewertung des entwickelten Produkts *not done*
-__Edwin__
+### Bewertung des entwickelten Produkts *done*
 - Vergleich mit den Anforderungen
 
 ### Beschreibung des Projektablaufs *done*
